@@ -5,7 +5,7 @@ RSpec.describe "recipes requests" do
     get "/api/v1/recipes?country=thailand"
    
     parsed_response = JSON.parse(response.body, symbolize_names: true)
-# binding.pry
+binding.pry
     expect(parsed_response).to be_a(Hash)
     expect(parsed_response).to have_key(:data)
     expect(parsed_response[:data]).to be_a(Array)

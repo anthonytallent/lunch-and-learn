@@ -237,9 +237,11 @@
           1,
           1,
           null,
-          1,
-          null,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
           null,
           null
         ]
@@ -250,13 +252,13 @@
           null,
           1,
           1,
-          1,
+          0,
           null,
-          1,
+          0,
           null,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           null,
           null,
           null,
@@ -286,10 +288,10 @@
           null,
           1,
           1,
-          1,
+          0,
           null,
-          1,
-          1,
+          0,
+          0,
           null,
           null
         ]
@@ -318,12 +320,12 @@
         "lines": [
           1,
           1,
-          6,
+          5,
           null,
           null,
           1,
-          2,
-          2,
+          1,
+          1,
           null,
           null,
           1,
@@ -342,8 +344,8 @@
         "lines": [
           1,
           1,
-          2,
-          40,
+          1,
+          20,
           null,
           null,
           null
@@ -353,17 +355,17 @@
         "lines": [
           1,
           1,
-          2,
-          2,
+          1,
+          1,
           null,
-          2,
+          1,
           null,
           null,
           1,
-          2,
-          2,
-          2,
-          2,
+          1,
+          1,
+          1,
+          1,
           null,
           null,
           null
@@ -374,12 +376,12 @@
           1,
           1,
           1,
-          40,
-          40,
-          40,
-          40,
-          40,
-          40,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
           null,
           null
         ]
@@ -413,9 +415,9 @@
         "lines": [
           1,
           1,
-          null,
           1,
-          1,
+          0,
+          0,
           null,
           null,
           null
@@ -437,51 +439,12 @@
           null,
           1,
           null,
-          null
-        ]
-      },
-      "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/poros/place.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/controllers/api/v1/recipes_controller.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          0,
-          1,
-          1,
-          null,
-          0,
-          0,
           null,
           null,
-          null
-        ]
-      },
-      "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/serializers/recipe_serializer.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
           null
         ]
       }
     },
-    "timestamp": 1678125381
+    "timestamp": 1678127964
   }
 }

@@ -7,5 +7,7 @@ RSpec.describe "Places request", :vcr do
     parsed_response = JSON.parse(response.body, symbolize_names: true)
 binding.pry
     expect(parsed_response).to be_a(Hash)
+    expect(parsed_response[0]).to have_key(:id)
+    expect(parsed_response[0].to have_key(:type))
   end
 end

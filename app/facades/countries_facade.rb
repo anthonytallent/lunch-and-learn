@@ -9,4 +9,8 @@ class CountriesFacade
     CountriesService.get_country_capital_response(country).first["capital"]
     
   end
+
+  def self.get_capital_latlng(capital)
+    CountriesService.get_capital_response(capital).first["latlng"]
+  end
 end

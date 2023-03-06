@@ -12,4 +12,9 @@ class CountriesService
     response = conn.get("/v3.1/name/#{country}")
     JSON.parse(response.body, symbolize_name: true)
   end
+
+  def self.get_capital_response(capital)
+    response = conn.get("/v3.1/capital/#{capital}")
+    JSON.parse(response.body, symbolize_name: true)
+  end
 end

@@ -14,4 +14,10 @@ RSpec.describe 'Country Facade' do
     # binding.pry
     expect(capital.first).to be("Lima")
   end
+
+  it 'can return a capitals lat and long', :vcr do
+    latlng = CountriesFacade.get_capital_latlng("lima")
+    binding.pry
+    expect(latlng).to be_a(Array)
+  end
 end

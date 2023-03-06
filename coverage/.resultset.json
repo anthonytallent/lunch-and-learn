@@ -208,19 +208,10 @@
         "lines": [
           1,
           null,
-          null
-        ]
-      },
-      "/Users/anthonytallent/3mod/projects/lunch-and-learn/spec/services/countries_service_spec.rb": {
-        "lines": [
-          1,
-          null,
           1,
           1,
           1,
           null,
-          1,
-          1,
           null,
           null
         ]
@@ -229,8 +220,13 @@
         "lines": [
           1,
           1,
+          0,
+          0,
+          null,
+          null,
+          null,
           1,
-          250,
+          1,
           null,
           null,
           null
@@ -240,17 +236,22 @@
         "lines": [
           1,
           1,
-          2,
+          1,
           null,
           null,
           1,
-          2,
-          2,
+          0,
+          0,
+          null,
+          null,
+          1,
+          1,
+          1,
           null,
           null
         ]
       }
     },
-    "timestamp": 1678044767
+    "timestamp": 1678120503
   }
 }

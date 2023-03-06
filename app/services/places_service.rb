@@ -6,12 +6,7 @@ class PlacesService
   def self.get_tourist_locations(lat, lon)
     response = conn.get("/v2/places?categories=tourism.sights&filter=circle:#{lon},#{lat},20000") do |f|
       f.params['apiKey'] = ENV['PLACES_API_KEY']
-      # f.params['lat'] = [lat]
-      # f.params['lon'] = [lon]
-
     end
     JSON.parse(response.body, symbolize_name: true)
   end
-
-  # def get_location_name
 end

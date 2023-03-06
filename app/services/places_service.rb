@@ -4,7 +4,7 @@ class PlacesService
   end
 
   def self.get_tourist_locations(lat, lon)
-    response = conn.get("/v2/place-details?lat=#{lat}&lon=#{lon}&radius_20000.tourism") do |f|
+    response = conn.get("/v2/place-details?lat=#{lat}&lon=#{lon}&radius_1000.tourism") do |f|
       f.params['apiKey'] = ENV['PLACES_API_KEY']
       # f.params['lat'] = [lat]
       # f.params['lon'] = [lon]

@@ -217,6 +217,173 @@
           null
         ]
       },
+      "/Users/anthonytallent/3mod/projects/lunch-and-learn/spec/facades/recipes_facade_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/anthonytallent/3mod/projects/lunch-and-learn/spec/requests/places_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/anthonytallent/3mod/projects/lunch-and-learn/spec/requests/recipes_requests_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/anthonytallent/3mod/projects/lunch-and-learn/spec/requests/tourist_sights_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/anthonytallent/3mod/projects/lunch-and-learn/spec/services/countries_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/facades/countries_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          250,
+          null,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/services/countries_service.rb": {
+        "lines": [
+          1,
+          1,
+          6,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/facades/recipes_facade.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          40,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/services/recipes_service.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          null,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/poros/recipe.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          40,
+          40,
+          40,
+          40,
+          40,
+          40,
+          null,
+          null
+        ]
+      },
       "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/controllers/api/v1/tourist_sights_controller.rb": {
         "lines": [
           1,
@@ -231,50 +398,6 @@
       "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/controllers/application_controller.rb": {
         "lines": [
           1,
-          null
-        ]
-      },
-      "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/facades/countries_facade.rb": {
-        "lines": [
-          1,
-          1,
-          0,
-          0,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/services/countries_service.rb": {
-        "lines": [
-          1,
-          1,
-          2,
-          null,
-          null,
-          1,
-          0,
-          0,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
           null
         ]
       },
@@ -331,8 +454,34 @@
           null,
           null
         ]
+      },
+      "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/controllers/api/v1/recipes_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          0,
+          1,
+          1,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/serializers/recipe_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1678124702
+    "timestamp": 1678125381
   }
 }

@@ -195,7 +195,7 @@
           null,
           null,
           1,
-          1,
+          2,
           null,
           null,
           null,
@@ -217,6 +217,23 @@
           null
         ]
       },
+      "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/controllers/api/v1/tourist_sights_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
       "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/facades/countries_facade.rb": {
         "lines": [
           1,
@@ -227,7 +244,7 @@
           null,
           null,
           1,
-          0,
+          1,
           null,
           null,
           null,
@@ -241,7 +258,7 @@
         "lines": [
           1,
           1,
-          1,
+          2,
           null,
           null,
           1,
@@ -250,8 +267,8 @@
           null,
           null,
           1,
-          0,
-          0,
+          1,
+          1,
           null,
           null,
           1,
@@ -260,8 +277,62 @@
           null,
           null
         ]
+      },
+      "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/serializers/place_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/facades/places_facade.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/services/places_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/anthonytallent/3mod/projects/lunch-and-learn/app/poros/place.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1678121790
+    "timestamp": 1678124702
   }
 }

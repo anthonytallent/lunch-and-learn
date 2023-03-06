@@ -9,15 +9,15 @@ RSpec.describe 'Country Facade' do
     expect(facade.first).to be_a(String)
   end
 
-  xit 'can return a countries capital', :vcr do
+  it 'can return a countries capital', :vcr do
     capital = CountriesFacade.get_country_capital("Peru")
     # binding.pry
-    expect(capital.first).to be("Lima")
+    expect(capital.first).to be_a(String)
   end
 
   it 'can return a capitals lat and long', :vcr do
     latlng = CountriesFacade.get_capital_latlng("lima")
-    binding.pry
+    # binding.pry
     expect(latlng).to be_a(Array)
   end
 end

@@ -41,9 +41,9 @@ figaro install
 place these ENV variables in your application.yml 
 (NOTE: this file should have been automatically placed in your.gitignore. double check if it is! don't expose your keys to anyone.)
 - [Countries API](https://restcountries.com/#api-endpoints-v3-all) No key is needed
-- [Edamam API](https://developer.edamam.com/edamam-recipe-api) Need to name edamam id as EDAMAM_APP_ID and api_key as EDAMAM_API_KEY
-- [Youtube API](https://developers.google.com/youtube/v3/getting-started) name youtubes api_key as YOUTUBE_API_KEY
-- [Upsplash API](https://unsplash.com/developers) name upsplash's key as UNSPLASH_ACCESS_KEY
+- [Edamam API](https://developer.edamam.com/edamam-recipe-api) Need to name Edamam id as EDAMAM_APP_ID and api_key as EDAMAM_API_KEY
+- [Youtube API](https://developers.google.com/youtube/v3/getting-started) name Youtube's api_key as YOUTUBE_API_KEY
+- [Upsplash API](https://unsplash.com/developers) name Upsplash's key as UNSPLASH_ACCESS_KEY
 
 
 ### RSpec Suite

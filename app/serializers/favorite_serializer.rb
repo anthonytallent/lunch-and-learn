@@ -1,4 +1,4 @@
 class FavoriteSerializer
   include JSONAPI::Serializer
-  attributes :country, :recipe_link, :recipe_title
+  attributes :recipe_link, :recipe_title, :country, :created_at
 end

@@ -5,5 +5,8 @@ RSpec.describe "learning resouece facade" do
     learning_resource = LearningResourceFacade.get_learning_resource("laos")
 
     expect(learning_resource).to be_a(LearningResource)
+    expect(learning_resource.country).to be_a(String)
+    expect(learning_resource.images).to be_a(Array)
+    expect(learning_resource.video).to be_a(Hash)
   end
 end

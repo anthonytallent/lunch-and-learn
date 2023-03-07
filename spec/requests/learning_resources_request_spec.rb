@@ -6,6 +6,6 @@ RSpec.describe "Learning Resource Requests" do
 
     expect(response).to be_successful
     parsed_response = JSON.parse(response.body, symbolize_name: true)
-    binding.pry
+    # binding.pry
   end
 end

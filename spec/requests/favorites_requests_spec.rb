@@ -43,6 +43,6 @@ RSpec.describe "favorites requests" do
     expect(parsed_response[:data][0][:type]).to be_a(String)
 
     expect(parsed_response[:data][0]).to have_key(:attributes)
-    expect(parsed_response[:data][0][:attributes]).to be_a(String)
+    expect(parsed_response[:data][0][:attributes]).to be_a(Hash)
   end
 end

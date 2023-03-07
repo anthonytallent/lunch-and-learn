@@ -5,7 +5,7 @@ class Api::V1::UsersController < ApplicationController
     if new_user.save
       render json: UserSerializer.new(new_user)
     else
-      render json: { error: { details: "Bad Request" } }
+      render json: { error: { details: "Bad Request" } }, status: 400
     end
   end
 

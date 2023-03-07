@@ -2,7 +2,6 @@ class LearningResource
   attr_reader :country, :video, :images
 
   def initialize(youtube_data, upsplash_data, country)
-    # binding.pry
     @id = nil
     @country = country
     @video = get_video_info(youtube_data)
@@ -23,8 +22,8 @@ class LearningResource
   end
 
   def get_video_info(youtube_data)
-    video_info = []
-    unless youtube_data[:results] == []
+    video_info = {}
+    unless youtube_data[:items] == []
       video_info = { "title": youtube_data[:items][0][:snippet][:title],
                      "youtube_video_id": youtube_data[:items][0][:id][:videoId]
                    }

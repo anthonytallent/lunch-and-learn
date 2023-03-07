@@ -16,7 +16,7 @@ class Api::V1::FavoritesController < ApplicationController
     if user
       render json: FavoriteSerializer.new(user.favorites)
     else
-      render json: { error: "user not found" }
+      render json: { error: "user not found" }, status: 400
     end
   end
 

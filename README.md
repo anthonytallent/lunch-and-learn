@@ -40,10 +40,10 @@ figaro install
 ### APIs and keys necessary
 place these ENV variables in your application.yml 
 (NOTE: this file should have been automatically placed in your.gitignore. double check if it is! don't expose your keys to anyone.)
-[Countries API](https://restcountries.com/#api-endpoints-v3-all)
-[Edamam API](https://developer.edamam.com/edamam-recipe-api) Need to name edamam id as EDAMAM_APP_ID and api_key as EDAMAM_API_KEY
-[Youtube API](https://developers.google.com/youtube/v3/getting-started) name youtubes api_key as YOUTUBE_API_KEY
-[Upsplash API](https://unsplash.com/developers) name upsplash's key as UNSPLASH_ACCESS_KEY
+- [Countries API](https://restcountries.com/#api-endpoints-v3-all)
+- [Edamam API](https://developer.edamam.com/edamam-recipe-api) Need to name edamam id as EDAMAM_APP_ID and api_key as EDAMAM_API_KEY
+- [Youtube API](https://developers.google.com/youtube/v3/getting-started) name youtubes api_key as YOUTUBE_API_KEY
+- [Upsplash API](https://unsplash.com/developers) name upsplash's key as UNSPLASH_ACCESS_KEY
 
 
 ### RSpec Suite
@@ -72,6 +72,7 @@ POST '/api/v1/users'
 ```
 
 ### Create a New Favorite for a User
+*Note:* pass `api_key` (for whichever user is wanting the favorite), `country`, `recipe_link` & `recipe_title` in request body
 
 ```bash
 POST '/api/v1/favorites'

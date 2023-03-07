@@ -72,6 +72,7 @@ POST '/api/v1/users'
 ```
 
 ### Create a New Favorite for a User
+*Note:* pass `api_key` (for whichever user is wanting the favorite), `country`, `recipe_link` & `recipe_title` in request body
 
 ```bash
 POST '/api/v1/favorites'

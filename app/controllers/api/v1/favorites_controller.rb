@@ -5,7 +5,7 @@ class Api::V1::FavoritesController < ApplicationController
     if new_favorite.save
       render json: { "success": "Favorite added successfully" }
     else
-      render json: { error: { details: "Bad Request" } }
+      render json: { error: { details: "Bad Request" } }, status: 400
     end
   end
 

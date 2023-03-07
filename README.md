@@ -104,4 +104,13 @@ POST '/api/v1/learning_resources?country={insert country here}'
 POST '/api/v1/favorites?api_key={insert user's api_key here}'
 ```
 
+## Check Me Out!
+
+:bust_in_silhouette: **Anthony Blackwell Tallent** 
+- anthonytallent567@gmail.com
+- [GitHub](https://github.com/anthonytallent)
+- [LinkedIn](https://www.linkedin.com/in/anthony-blackwell-tallent-b36916255/)
+
 ### If you got this far then thank you! have a great day!
+
+
